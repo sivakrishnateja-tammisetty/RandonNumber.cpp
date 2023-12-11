@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+ srand(time(0));//it will provide current time in seconds
+ int n=rand()%20;
+ cout<<n<<endl;
+ 
+    return 0;
+}
